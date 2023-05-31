@@ -1,8 +1,8 @@
 ---
-title: Creating a dataset for Chronic Kidney Disease
+# Creating a dataset for Chronic Kidney Disease
 ---
 
-# Aim
+## Aim
 
 This mini project stems from my master's thesis conducted at Stockholm
 University[^1]<sup>,</sup>[^2]. The focus is on investigating the eGFR
@@ -13,11 +13,9 @@ aim is to develop an understanding of the eGFR calculation process and
 contribute to enhancing the accuracy and reliability of the results. The
 insights gained from this project can be valuable for future researchers
 seeking to extract information on kidney health or other health related
-data projects from the dataset. Top of Form
+data projects from the dataset. 
 
-Bottom of Form
-
-# eGFR and the CKD-EPI(2021) equation
+## eGFR and the CKD-EPI(2021) equation
 
 The acronym eGFR refers to estimated Glomerular Filtration Rate, which
 serves as a cost-effective and accurate method for evaluating kidney
@@ -34,7 +32,7 @@ offers a concise information page dedicated to the CKD-EPI equation
 \[3\]. The eGFR is expressed in milliliters per minute per 1.73 square
 meters ($mL/min/1.73m^{2}$), and the equation is as follows:
 
-$$eGFR = 142*\min\left( \frac{standardized\ Scr}{K},\ 1 \right)^{a}*{\max\left( \frac{standardized\ Scr}{K},\ 1 \right)}^{- 1.200}*{0.9938}^{age}*1.012\ \lbrack if\ female\rbrack$$
+$eGFR = 142*\min\left( \frac{standardized\ Scr}{K},\ 1 \right)^{a}*{\max\left( \frac{standardized\ Scr}{K},\ 1 \right)}^{- 1.200}*{0.9938}^{age}*1.012\ \lbrack if\ female\rbrack$
 
 Where:
 
@@ -56,7 +54,7 @@ the standardization and its importance in eGFR results, respectively.
 With the introduction of the SRM 967 in 2007, manufacturers have been
 required to follow this standard ever since \[5\].
 
-# The MIMIC-IV dataset
+## The MIMIC-IV dataset
 
 *“MIMIC is a large, freely-available database comprising deidentified
 health-related data from patients who were admitted to the critical care
@@ -76,7 +74,7 @@ the mimic-IV [GitHub
 page](https://github.com/MIT-LCP/mimic-code/tree/main/mimic-iv/buildmimic/postgres),
 as I wanted to explore the capabilities of the PostgresSQL language.
 
-# Workflow
+## Workflow
 
 Here there is a list with the steps taken towards the dataset creation.
 
@@ -121,7 +119,7 @@ Here there is a list with the steps taken towards the dataset creation.
   notebook](https://github.com/fdiamant/mimiciv_ckd/blob/main/main_notebook.ipynb),
   where the rest of the analysis takes place.
 
-# Issues and decisions 
+## Issues and decisions 
 
 1.  There are no urine lab results in the datasets.There is no derived
     query (like the chemistry query) that return lab results for urine
@@ -138,7 +136,7 @@ Here there is a list with the steps taken towards the dataset creation.
     a hospital environment the whole part of the age is used most of the
     times.
 
-# Future versions
+## Future versions
 
 1.  Create a query for urine lab results and modify the dataset.
 
@@ -147,7 +145,7 @@ Here there is a list with the steps taken towards the dataset creation.
 3.  Check variations in eGFR calculation that might occur as a result of
     the age rounding decision.
 
-# References
+## References
 
 \[1\] A. E. W. Johnson *et al.*, ‘MIMIC-IV, a freely accessible
 electronic health record dataset’, *Sci. Data*, vol. 10, no. 1, p. 1,
