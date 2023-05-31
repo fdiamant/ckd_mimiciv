@@ -3,3 +3,4 @@
 *.docx
 do_not_track/
 .ipynb_checkpoints/
+.idea/
