@@ -30,9 +30,11 @@ For the most up-to-date calculation of eGFR, researchers have proposed
 the CKD-EPI(2021) equation \[2\]. The National Kidney Foundation also
 offers a concise information page dedicated to the CKD-EPI equation
 \[3\]. The eGFR is expressed in milliliters per minute per 1.73 square
-meters ($mL/min/1.73m^{2}$), and the equation is as follows:
+meters ($mL/min/1.73m^{2}$), and the equation is as follows:    
 
-$eGFR = 142*\min\left( \frac{standardized\ Scr}{K},\ 1 \right)^{a}*{\max\left( \frac{standardized\ Scr}{K},\ 1 \right)}^{- 1.200}*{0.9938}^{age}*1.012\ \lbrack if\ female\rbrack$
+
+$eGFR = 142*\min\left( \frac{standardized\ Scr}{K},\ 1 \right)^{a}*{\max\left( \frac{standardized\ Scr}{K},\ 1 \right)}^{- 1.200}*{0.9938}^{age}*1.012\ \lbrack if\ female\rbrack$    
+
 
 Where:
 
