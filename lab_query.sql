@@ -30,12 +30,12 @@ SELECT
 	chem.potassium
 FROM
 	mimiciv_derived.complete_blood_count AS cbc
-	JOIN mimiciv_derived.chemistry AS chem ON cbc.charttime = chem.charttime
+	JOIN mimiciv_derived.chemistry AS chem ON cbc.charttime = chem.charttime 
+    AND cbc.subject_id = chem.subject_id
+	AND cbc.hadm_id = chem.hadm_id
 WHERE
 	cbc.hadm_id IS NOT NULL
 	AND chem.hadm_id IS NOT NULL
-	AND cbc.subject_id = chem.subject_id
-	AND cbc.hadm_id = chem.hadm_id
 ORDER BY
 	cbc.subject_id,
 	cbc.hadm_id,
