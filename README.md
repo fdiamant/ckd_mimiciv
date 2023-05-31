@@ -33,7 +33,7 @@ offers a concise information page dedicated to the CKD-EPI equation
 meters ($mL/min/1.73m^{2}$), and the equation is as follows:    
 
 
-$eGFR = 142*\min\left( \frac{standardized\ Scr}{K},\ 1 \right)^{a}*{\max\left( \frac{standardized\ Scr}{K},\ 1 \right)}^{- 1.200}*{0.9938}^{age}*1.012\ \lbrack if\ female\rbrack$    
+$$eGFR = 142\*\min\left( \frac{standardized\ Scr}{K},\ 1 \right)^{a}\*{\max\left( \frac{standardized\ Scr}{K},\ 1 \right)}^{- 1.200}\*{0.9938}^{age}\*1.012\ \lbrack if\ female\rbrack$$    
 
 
 Where:
