@@ -1,11 +1,5 @@
 
 .DS_Store
 *.docx
-do_not_track/ckd_deidentified.csv
-do_not_track/data_deidentification.ipynb
-do_not_track/lab.csv
-do_not_track/patients_age_flags.csv
-do_not_track/test.csv
-do_not_track/lab_old.csv
-do_not_track/markdown.md
-.ipynb_checkpoints/lab_query-checkpoint.sql
+do_not_track/
+.ipynb_checkpoints/
