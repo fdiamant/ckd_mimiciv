@@ -8,3 +8,4 @@ do_not_track/patients_age_flags.csv
 do_not_track/test.csv
 do_not_track/lab_old.csv
 do_not_track/markdown.md
+.ipynb_checkpoints/lab_query-checkpoint.sql

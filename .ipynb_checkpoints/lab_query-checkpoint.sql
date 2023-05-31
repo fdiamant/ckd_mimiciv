@@ -36,7 +36,3 @@ FROM
 WHERE
 	cbc.hadm_id IS NOT NULL
 	AND chem.hadm_id IS NOT NULL
-ORDER BY
-	cbc.subject_id,
-	cbc.hadm_id,
-	cbc.charttime
