@@ -6,8 +6,8 @@
 
 This mini project stems from my master's thesis conducted at Stockholm
 University[^1]<sup>,</sup>[^2]. The focus is on investigating the eGFR
-calculation in the MIMIC-IV*(Medical Information Mart for Intensive
-Care)* \[1\] database while identifying potential issues within the
+calculation in the MIMIC-IV (Medical Information Mart for Intensive
+Care) \[1\] database while identifying potential issues within the
 dataset and proposing possible solutions to mitigate them. The primary
 aim is to develop an understanding of the eGFR calculation process and
 contribute to enhancing the accuracy and reliability of the results. The
