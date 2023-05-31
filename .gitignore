@@ -1,3 +1,7 @@
 
 .DS_Store
 *.docx
+do_not_track/ckd_deidentified.csv
+do_not_track/data_deidentification.ipynb
+do_not_track/lab.csv
+do_not_track/patients_age_flags.csv
