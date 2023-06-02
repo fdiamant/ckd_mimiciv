@@ -5,13 +5,13 @@
 ## Aim
 
 This mini project stems from my master's thesis conducted at Stockholm
-University[^1]<sup>,</sup>[^2]. The focus is on investigating the eGFR
-calculation in the MIMIC-IV (Medical Information Mart for Intensive
-Care) \[1\] database while identifying potential issues within the
-dataset and proposing possible solutions to mitigate them. The primary
-aim is to develop an understanding of the eGFR calculation process and
-contribute to enhancing the accuracy and reliability of the results. The
-insights gained from this project can be valuable for future researchers
+University[^1]<sup>,</sup>[^2]. The primary focus is on creating a 
+CKD (Chronic Kidney Disease) dataset from the MIMIC-IV (Medical Information 
+Mart for Intensive Care) \[1\] database while identifying potential issues within the
+dataset and proposing possible solutions to mitigate them. The secondary
+aim is to develop an understanding of the eGFR (estimated Glomerular Filtration Rate) 
+calculation process and contribute to enhancing the accuracy and reliability 
+of the results. The insights gained from this project can be valuable for future researchers
 seeking to extract information on kidney health or other health related
 data projects from the dataset. 
 
